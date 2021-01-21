@@ -126,7 +126,7 @@ export default {
 	},
 	methods: {
 		onSubscribe: function(){
-			let templateId = 'hLV31-w38lq0yq8p6GEQUtBU7brtMrCFmaCCyxbU4xI';
+			let templateId = 'Iz1p1N2JbxBZJwnH4vmrRV8tbDfEY8ZVE6x4UIAC_gE';
 			let openid = getApp().globalData.openid;
 			console.log('订阅开始')
 			uni.requestSubscribeMessage({
@@ -169,7 +169,7 @@ export default {
 				   success: (res) => {
 					  console.log(res);
 					  wx.showToast({
-						title: '订阅完成',
+						title: '咩咩明天喊吃饭',
 						icon: 'sucess',
 						duration: 2000,
 					  });

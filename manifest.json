@@ -1,6 +1,6 @@
 {
-    "name" : "惠吃会喝",
-    "appid" : "__UNI__C0FA532",
+    "name" : "咩咩牧场",
+    "appid" : "__UNI__D88FE3F",
     "description" : "",
     "versionName" : "1.0.2",
     "versionCode" : 102,
@@ -58,7 +58,7 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "wx9472d5ad54e879ed",
+        "appid" : "wx3544ce39992b3583",
         "setting" : {
             "urlCheck" : true,
             "minified" : true,

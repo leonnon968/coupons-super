@@ -59,7 +59,7 @@
 									size: '28',
 									type: 'checkbox'
 								},
-							title: "领券提醒",
+							title: "点餐提醒",
 							type : 3,
 							url: '',
 						},
@@ -70,19 +70,19 @@
 									type: 'star'
 								},
 							title: "赞赏作者",
-							url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-17414whos6vp2f68cb/320ec300-4b05-11eb-8a36-ebb87efcf8c0.jpg",
+							url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-0mbhldfjuhxu9f949c/fe6bcf80-5ba2-11eb-8d54-21c4ca4ce5d7.png",
 						},
-						{
-							icon :{
-									color: '#f4c242',
-									size: '28',
-									type: 'more'
-								},
-							title: "领拼多多优惠", 
-							appid: "wx5beb3dc0c3575180",
-							url: "pages/index/index",
-							type: 2,  
-						},				
+						// {
+						// 	icon :{
+						// 			color: '#f4c242',
+						// 			size: '28',
+						// 			type: 'more'
+						// 		},
+						// 	title: "领拼多多优惠", 
+						// 	appid: "wx5beb3dc0c3575180",
+						// 	url: "pages/index/index",
+						// 	type: 2,  
+						// },				
 				]		
 			}
 		},onShareAppMessage(res) {
@@ -153,7 +153,7 @@
 		  },
 		methods: {
 			notify: function(){
-					let templateId = 'hLV31-w38lq0yq8p6GEQUtBU7brtMrCFmaCCyxbU4xI';
+					let templateId = 'Iz1p1N2JbxBZJwnH4vmrRV8tbDfEY8ZVE6x4UIAC_gE';
 					let openid = getApp().globalData.openid;
 					console.log('订阅开始')
 					uni.requestSubscribeMessage({
@@ -196,7 +196,7 @@
 						   success: (res) => {
 						 	  console.log(res);
 						 	  wx.showToast({
-						 		title: '订阅完成',
+						 		title: '咩咩明天喊吃饭',
 						 		icon: 'sucess',
 						 		duration: 2000,
 						 	  });

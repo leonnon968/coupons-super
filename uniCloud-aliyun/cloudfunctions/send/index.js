@@ -56,14 +56,11 @@ exports.main = async (event, context) => {
 				page: "pages/index/index",
 				data: {
 						  thing1: {
-							  value: "记得领红包哦！",
+							  value: "记得点餐前来领红包哦！",
 						  },
-						  thing4: {
-							  value: message.data,
-						  },
-						  thing5: {
-							  value: now_date,
-						  } 
+						  thing2: {
+							  value: "前往咩咩牧场，领取专属优惠券",
+						  }
 					  },
 				template_id: message.templateId,
 				};

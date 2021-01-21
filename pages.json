@@ -3,13 +3,13 @@
 		{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "惠吃会喝"
+			"navigationBarTitleText": "快乐红包羊毛机 @ 咩咩牧场"
 		}
 		},
 		{
 		    "path" : "pages/eatwhat/eatwhat",
 		    "style": {
-		    	"navigationBarTitleText": "吃什么"
+		    	"navigationBarTitleText": "今天吃什么"
 		    }
 		},
 		{
@@ -50,8 +50,8 @@
 	// #endif
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "惠吃会喝",
-		"navigationBarBackgroundColor": "#F0AD4E",
+		"navigationBarTitleText": "咩咩牧场",
+		"navigationBarBackgroundColor": "#CB081C",
 		"backgroundColor": "#FFFFFF",
 		"titleView": false,
 		"h5": {

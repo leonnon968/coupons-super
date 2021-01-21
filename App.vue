@@ -11,10 +11,10 @@ export default {
 	},
 	globalData: {
 		api: {
-			home: 'https://a5e34042-88d6-4543-9150-b009f8d79d2d.bspapp.com/http/api/home',
-			openid: 'https://a5e34042-88d6-4543-9150-b009f8d79d2d.bspapp.com/http/api/openid',
+			home: 'https://7173d214-b041-45ce-ae57-46a0a149c865.bspapp.com/http/api/home',
+			openid: 'https://7173d214-b041-45ce-ae57-46a0a149c865.bspapp.com/http/api/openid',
 		},
-		subscribe: 'https://a5e34042-88d6-4543-9150-b009f8d79d2d.bspapp.com/http/subscribe',
+		subscribe: 'https://7173d214-b041-45ce-ae57-46a0a149c865.bspapp.com/http/subscribe',
 		openid: ''
 	}
 
