@@ -1,3 +1,16 @@
+## 简介
+本项目基于[SunJackson的外卖小程序](https://github.com/SunJackson/coupons-ss)，如果想要看初始原始代码请移步[这里](https://github.com/zwpro/coupons)
+# 美团饿了吗CPS红包，别人领红包下单，你拿推广佣金
+<img src="https://raw.githubusercontent.com/zwpro/coupons/master/static/demo.png" width="300"/>
+
+本分支在原有基础上进行个性化定制开发，并上线的外卖省钱小程序，并添加了购物领券电影优惠等板块。
+### 上线小程序：咩咩牧场
+<img src="https://raw.githubusercontent.com/leonnon968/coupons-super/master/examples/咩咩牧场小程序二维码.png" width="200"/>
+
+### 公众号：咩咩牧场
+<img src="https://raw.githubusercontent.com/leonnon968/coupons-super/master/examples/咩咩牧场公众号二维码.png" width="200"/>
+
+
 ### 更新日志 12.31
 - 修改个人中心关注公众号按钮点击跳转
 - 吃什么页面添加分享功能
