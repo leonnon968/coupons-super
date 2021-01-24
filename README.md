@@ -32,12 +32,6 @@
 - 新增订阅功能
 - 新增右上角提醒收藏
 
-本项目基于[zwpro的外卖CPS添加功能开发](https://github.com/zwpro/coupons)，如果想要看原始代码请移步[这里](https://github.com/zwpro/coupons)
-# 美团饿了吗CPS红包，别人领红包下单，你拿推广佣金
-<img src="https://raw.githubusercontent.com/zwpro/coupons/master/static/demo.png" width="300"/>
-
-
-
 ### 使用方法
 
 源码为uniapp项目，需下载hbuilder导入项目打包，可编译成h5或小程序(跳转地址为小程序路径)
@@ -67,8 +61,7 @@ minapp: {
 
 已上线案例：
 
-<img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150908.jpg" width="200"/>
-<img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150917.png" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150923.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150932.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150944.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150950.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107163539.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107163546.jpg" width="200"/>
+<img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150908.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150917.png" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150923.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150932.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150944.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107150950.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107163539.jpg" width="200"/><img src="https://raw.githubusercontent.com/zwpro/coupons/master/examples/微信图片_20201107163546.jpg" width="200"/>
 
 
 ## 备注
