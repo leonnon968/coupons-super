@@ -15,7 +15,11 @@ export default {
 			openid: 'https://7173d214-b041-45ce-ae57-46a0a149c865.bspapp.com/http/api/openid',
 		},
 		subscribe: 'https://7173d214-b041-45ce-ae57-46a0a149c865.bspapp.com/http/subscribe',
-		openid: ''
+		openid: '',
+		shopping: {
+			pdd: 'https://7173d214-b041-45ce-ae57-46a0a149c865.bspapp.com/http/shopping/pdd',
+			tb: 'https://7173d214-b041-45ce-ae57-46a0a149c865.bspapp.com/http/shopping/tb'
+		}
 	}
 
 };

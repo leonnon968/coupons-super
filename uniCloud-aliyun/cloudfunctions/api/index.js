@@ -1,6 +1,7 @@
 'use strict';
 const response = require('response')
 const homeModel = require('./models/home')
+const loginModel = require('./models/login')
 const getOpenId = require('./models/openid')
 exports.main = async (event, context) => {
 	//event为客户端上传的参数
@@ -14,6 +15,12 @@ exports.main = async (event, context) => {
 			resp.tabs = homeModelTabs.data
 			var homeModelCoupons = await homeModel.coupons()
 			resp.coupons = homeModelCoupons.data
+			return response.success(resp)
+			break;
+		//授权登录
+		case '/login':
+			var loginModelData = await loginModel(event.queryStringParameters.code)
+			resp.user = loginModelData
 			return response.success(resp)
 			break;
 		case '/openid':

@@ -2,6 +2,7 @@
 	<view class="container">
 		<!-- #ifdef MP-WEIXIN -->
 		<add-tip :tip="tip" :duration="duration"/>
+		<u-notice-bar mode="horizontal" :is-circular="false" :list="noticeList" :duration="4000" :more-icon="true"></u-notice-bar>
 		<view class="content"  @click="onSubscribe()">
 				<dragball :x=300 :y=400 image="../../static/dytx.png" ></dragball>
 		</view>
@@ -45,6 +46,7 @@ export default {
 			coupons: [],
 			tip:"点击「添加小程序」，下次访问更便捷",
 			duration: 5,
+			noticeList: ["关注公众号【咩咩牧场】，每天领取大额优惠券！", "先领券后下单，一年能省一半钱！", "点击右下角订阅按钮，优惠不错过！"],
 		};
 	},
 	components:{

@@ -18,7 +18,16 @@
 		    	"navigationBarTitleText": "个人中心"
 		    }
 		}
-	],
+	    ,{
+            "path" : "pages/shopping/shopping",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物券",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	// #ifdef  MP-WEIXIN
 	"tabBar": {
 	        "borderStyle": "black",
@@ -38,6 +47,12 @@
 				   "iconPath": "static/whatwedo.png",   
 				   "selectedIconPath": "static/whatwedo-active.png"
 					},
+					{
+					"pagePath": "pages/shopping/shopping",
+					"text": "购物券",
+					"iconPath": "static/yhq.png",   
+					"selectedIconPath": "static/yhq-active.png"
+										},
 				   {
 					   "pagePath": "pages/home/home",
 					   "text": "个人中心",
